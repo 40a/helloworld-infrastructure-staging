@@ -17,7 +17,7 @@ spec:
         version: v1
     spec:
       containers:
-      - image: gcr.io/hightowerlabs/helloworld
+      - image: gcr.io/hightowerlabs/helloworld:123c0beff20e8532d81f90971780298d753ecbf3
         name: helloworld
         ports:
         - containerPort: 80
